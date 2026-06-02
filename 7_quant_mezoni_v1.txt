@@ -3,8 +3,8 @@
 
 KORAK 1: Weierstrass lex-kriva nad svim do sad izvucenim kombinacijama
 
-  CSV izvucenih:        /Users/4c/Desktop/GHQ/data/loto7_4624_k43.csv
-  Ucitano izvlacenja:    4624
+  CSV izvucenih:        /data/loto7_4624_k43.csv
+  Ucitano izvlacenja:   4624
   C(39,7):              15,380,937
   f(t) = lex-indeks izvucene kombinacije u skupu svih 39C7
 
@@ -29,25 +29,25 @@ Glavna kvantna prognoza:
   sampled count:         109
   sampled prob:          0.00545000
   pred. lex:             10,644,811
-  pred. kombinacija:     (6, 11, 12, 18, 23, 28, 31)
+  pred. kombinacija:     (6, x, 12, y, 23, z, 31)
   vec izvucena ranije:   NE
 
 Top kvantni kandidati:
-  rang    count        prob           lex  kombinacija                    seen
-  1         109  0.00545000    10,644,811  (6, 11, 12, 18, 23, 28, 31)    NE
-  2         103  0.00515000    12,424,539  (8, 12, 17, 20, 23, 30, 32)    NE
-  3          95  0.00475000    11,169,115  (7, 8, 11, 15, 22, 25, 31)     NE
-  4          93  0.00465000    11,364,683  (7, 9, 14, 21, 25, 27, 36)     NE
-  5          91  0.00455000    11,702,971  (7, 12, 19, 27, 30, 33, 37)    NE
-  6          90  0.00450000    11,364,518  (7, 9, 14, 21, 23, 30, 37)     NE
-  7          90  0.00450000    11,702,603  (7, 12, 19, 26, 27, 31, 38)    NE
-  8          89  0.00445000    11,348,134  (7, 9, 13, 17, 31, 32, 39)     NE
-  9          86  0.00430000    11,364,534  (7, 9, 14, 21, 23, 32, 38)     NE
-  10         85  0.00425000    10,644,827  (6, 11, 12, 18, 23, 29, 37)    NE
-  11         85  0.00425000    12,425,046  (8, 12, 17, 20, 30, 34, 37)    NE
-  12         84  0.00420000    10,628,427  (6, 10, 23, 25, 31, 33, 37)    NE
+  rang    count        prob           lex  kombinacija                 seen
+  1         109  0.00545000    10,644,811  (6, x, 12, y, 23, z, 31)    NE
+  2         103  0.00515000    12,424,539  (8, x, 17, y, 23, z, 32)    NE
+  3          95  0.00475000    11,169,115  (7, x, 11, y, 22, z, 31)    NE
+  4          93  0.00465000    11,364,683  (7, x, 14, y, 25, z, 36)    NE
+  5          91  0.00455000    11,702,971  (7, x, 19, y, 30, z, 37)    NE
+  6          90  0.00450000    11,364,518  (7, x, 14, y, 23, z, 37)    NE
+  7          90  0.00450000    11,702,603  (7, x, 19, y, 27, z, 38)    NE
+  8          89  0.00445000    11,348,134  (7, x, 13, y, 31, z, 39)    NE
+  9          86  0.00430000    11,364,534  (7, x, 14, y, 23, z, 38)    NE
+  10         85  0.00425000    10,644,827  (6, x, 12, y, 23, z, 37)    NE
+  11         85  0.00425000    12,425,046  (8, x, 17, y, 30, z, 37)    NE
+  12         84  0.00420000    10,628,427  (6, x, 23, y, 31, z, 37)    NE
 
 Vreme treninga:       0:02:49 (168.6 s)
 Ukupno vreme:         0:02:50 (170.4 s)
-PNG:                  /Users/4c/Desktop/GHQ/KarlWeierstrass/7_quant_mezoni_v1.png
+PNG:                  /7_quant_mezoni_v1.png
 
