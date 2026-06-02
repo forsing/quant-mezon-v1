@@ -18,7 +18,7 @@ from qiskit_aer import AerSimulator
 
 T0 = time.time()
 SEED = 39
-CSV_PATH = "/Users/4c/Desktop/GHQ/data/loto7_4624_k43.csv"
+CSV_PATH = "/data/loto7_4624_k43.csv"
 HERE = os.path.dirname(os.path.abspath(__file__))
 TXT_OUT = os.path.join(HERE, "7_quant_mezoni_v1.txt")
 PNG_OUT = os.path.join(HERE, "7_quant_mezoni_v1.png")
